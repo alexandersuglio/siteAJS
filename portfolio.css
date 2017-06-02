@@ -1,71 +1,67 @@
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
-body{
-	background-color: black;
-	overflow-x: hidden;
-}
-.city img {
-   background: linear-gradient(red, yellow);
 
-/*background: darkblue;*/
-width: 100%;
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.city img {
+    background: linear-gradient(red, yellow);
+    width: 100%;
 }
 
 .subway img {
-	width: 100%;
+    width: 100%;
 }
 
 .subway2 img {
-	width: 100%;
+    width: 100%;
 }
 
-.subway h1, h2 {
-font-family: 'Open Sans', sans-serif;
-color: white;
-font-size: 32px;
+.subway h1,
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 32px;
 }
-
 
 .car {
-	position: absolute;
+    position: absolute;
     left: 0px;
     top: 440px;
-z-index: 1;
-/*overflow-x: hidden;*/
-    animation: carMove 3s infinite  normal ease-out;
-
+    z-index: 1;
+    animation: carMove 3s infinite normal ease-out;
 }
 
 .car2 {
-	position: absolute;
+    position: absolute;
     left: 0px;
     top: 890px;
-z-index: 1;
-/*overflow-x: hidden;*/
-    animation: carMoveii 3s infinite  normal ease-out;
-
+    z-index: 1;
+    animation: carMoveii 3s infinite normal ease-out;
 }
-/*@-webkit-keyframes floatBubble {
+
+@keyframes carMove {
     0% {
-        top:500px;
+        left: -2145px;
+        top: 440px;
     }
     100% {
-        top: 0px;
+        left: 2145px;
+        top: 440px;
     }
-}*/
-@keyframes carMove {
-  0%   { left:-2145px; top:440px;}
-   /* 25%  {left:-800px; top:480px;}
-    50%  {left:1000px; top:480px;}
-    75%  {left:1200px; top:480px;}*/
-    100% {left:2145px; top:440px;}
 }
+
 @keyframes carMoveii {
-  0%   { left:2145px; top:890px;}
-   /* 25%  {left:-800px; top:480px;}
-    50%  {left:1000px; top:480px;}
-    75%  {left:1200px; top:480px;}*/
-    100% {left:-2145px; top:890px;}
+    0% {
+        left: 2145px;
+        top: 890px;
+    }
+    100% {
+        left: -2145px;
+        top: 890px;
+    }
 }
