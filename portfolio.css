@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+	overflow-x: hidden;
+}
+.city img {
+   background: linear-gradient(red, yellow);
+width: 100%;
+}
+
+.subway img {
+	width: 100%;
+}
+
+.subway h1, h2 {
+font-family: 'Open Sans', sans-serif;
+color: white;
+font-size: 32px;
+}
+
+
+.car {
+	position: absolute;
+    left: 0px;
+    top: 440px;
+z-index: 1;
+/*overflow-x: hidden;*/
+    animation: carMove 3s infinite  normal ease-out;
+
+}
+/*@-webkit-keyframes floatBubble {
+    0% {
+        top:500px;
+    }
+    100% {
+        top: 0px;
+    }
+}*/
+@keyframes carMove {
+  0%   { left:-1500px; top:440px;}
+   /* 25%  {left:-800px; top:480px;}
+    50%  {left:1000px; top:480px;}
+    75%  {left:1200px; top:480px;}*/
+    100% {left:1500px; top:440px;}
+}
