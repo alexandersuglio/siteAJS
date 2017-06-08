@@ -146,24 +146,24 @@
     
     @media (max-width: 480px) {
         body{
-            background-color: orange;
+            background: orange;
         }
         #first {
             font-size: 25px;
             padding-left: 20px;
             position: absolute;
-            top: 110px;
+            top: 120px;
         }
         #last {
             font-size: 25px;
             padding-left: 20px;
             position: absolute;
-            top: 140px;
+            top: 150px;
         }
         #arrayHere {
             position: absolute;
             left: 120px;
-            top: 120px;
+            top: 130px;
             font-size: 30px;
         }
         .car {
@@ -185,6 +185,79 @@
         .subway2 img {
             position: absolute;
             top: 350px;
+            z-index: -1;
+        }
+        .car2 {
+            position: absolute;
+            z-index: 1;
+            animation: carMoveii 2s infinite linear;
+            filter: blur(2px);
+        }
+        .car2 img {
+            width: 200%;
+        }
+        @keyframes carMove {
+            0% {
+                left: -858px;
+                top: 405px;
+            }
+            100% {
+                left: 858px;
+                top: 405px;
+            }
+        }
+        @keyframes carMoveii {
+            0% {
+                right: -858px;
+                top: 840px;
+            }
+            100% {
+                right: 858px;
+                top: 840px;
+            }
+        }
+    }
+    @media (max-width: 360px) {
+        body{
+            background: red;
+        }
+        #first {
+            font-size: 20px;
+            padding-left: 20px;
+            position: absolute;
+            top: 100px;
+        }
+        #last {
+            font-size: 20px;
+            padding-left: 20px;
+            position: absolute;
+            top: 130px;
+        }
+        #arrayHere {
+            position: absolute;
+            left: 100px;
+            top: 105px;
+            font-size: 25px;
+        }
+        .car {
+            position: absolute;
+            left: 0px;
+            top: 100px;
+            z-index: 1;
+            animation: carMove 2s infinite linear;
+            filter: blur(1px);
+        }
+        .car img {
+            width: 200%;
+        }
+        .subway img {
+            position: absolute;
+            top: 180px;
+            z-index: -1;
+        }
+        .subway2 img {
+            position: absolute;
+            top: 280px;
             z-index: -1;
         }
         .car2 {
