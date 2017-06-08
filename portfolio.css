@@ -44,8 +44,8 @@
     
     .city img {
         width: 100%;
-        /*animation: colorChange 1s infinite normal ease-out;*/
     }
+        /*animation: colorChange 1s infinite normal ease-out;*/
     /*@keyframes colorChange {
     0% {
         filter: invert(100%);
@@ -219,9 +219,12 @@
     }
     @media (max-width: 380px) {
         body{
-                   overflow-x: hidden;
+                   /*overflow-x: hidden;*/
  /*background: red;*/
         }
+        .city img {
+        width: 100%;
+    }
         #first {
             font-size: 20px;
             padding-left: 20px;
