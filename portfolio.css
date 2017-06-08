@@ -218,9 +218,10 @@
         }
     }
     @media (max-width: 380px) {
-       /* body{
-            background: red;
-        }*/
+        body{
+                   overflow-x: hidden;
+ /*background: red;*/
+        }
         #first {
             font-size: 20px;
             padding-left: 20px;
