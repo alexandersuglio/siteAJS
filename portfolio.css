@@ -13,7 +13,7 @@
         width: 100%;
         background: black;
         overflow-x: hidden;
-        /*overflow-y: scroll;*/
+        overflow-y: scroll;
     }
     
     .sky {
@@ -253,6 +253,7 @@
         }
         .car img {
             width: 100%;
+             overflow-x: hidden;
             /*height: 500%;*/
         }
         .subway img {
@@ -273,6 +274,7 @@
         }
         .car2 img {
             width: 100%;
+             overflow-x: hidden;
         }
         @keyframes carMove {
             0% {
