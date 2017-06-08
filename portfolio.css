@@ -152,18 +152,18 @@
             font-size: 25px;
             padding-left: 20px;
             position: absolute;
-            top: 120px;
+            top: 110px;
         }
         #last {
             font-size: 25px;
             padding-left: 20px;
             position: absolute;
-            top: 150px;
+            top: 140px;
         }
         #arrayHere {
             position: absolute;
             left: 120px;
-            top: 130px;
+            top: 120px;
             font-size: 30px;
         }
         .car {
