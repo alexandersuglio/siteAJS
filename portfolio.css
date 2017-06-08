@@ -45,7 +45,7 @@
     .city img {
         width: 100%;
     }
-        /*animation: colorChange 1s infinite normal ease-out;*/
+    /*animation: colorChange 1s infinite normal ease-out;*/
     /*@keyframes colorChange {
     0% {
         filter: invert(100%);
@@ -145,7 +145,7 @@
     }
     
     @media (max-width: 480px) {
-       /* body{
+        /* body{
             background: orange;
         }*/
         #first {
@@ -217,14 +217,15 @@
             }
         }
     }
+    
     @media (max-width: 380px) {
-        body{
-                   /*overflow-x: hidden;*/
- /*background: red;*/
+        body {
+            /*overflow-x: hidden;*/
+            /*background: red;*/
         }
         .city img {
-        width: 100%;
-    }
+            width: 100%;
+        }
         #first {
             font-size: 20px;
             padding-left: 20px;
@@ -235,7 +236,7 @@
             font-size: 20px;
             padding-left: 20px;
             position: absolute;
-            top: 130px;
+            top: 125px;
         }
         #arrayHere {
             position: absolute;
@@ -253,8 +254,11 @@
         }
         .car img {
             width: 100%;
-             overflow-x: hidden;
-            /*height: 500%;*/
+            /*overflow-x: hidden;*/
+        }
+        .car2 img {
+            width: 100%;
+            /*overflow-x: hidden;*/
         }
         .subway img {
             position: absolute;
@@ -272,27 +276,23 @@
             animation: carMoveii 2s infinite linear;
             filter: blur(1px);
         }
-        .car2 img {
-            width: 100%;
-             overflow-x: hidden;
-        }
         @keyframes carMove {
             0% {
-                left: -360px;
+                left: -380px;
                 top: 220px;
             }
             100% {
-                left: 100px;
+                left: 380px;
                 top: 220px;
             }
         }
         @keyframes carMoveii {
             0% {
-                right: -360px;
+                right: -380px;
                 top: 330px;
             }
             100% {
-                right: 360px;
+                right: 380px;
                 top: 330px;
             }
         }
