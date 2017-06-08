@@ -265,7 +265,7 @@
             position: absolute;
             z-index: 1;
             animation: carMoveii 2s infinite linear;
-            filter: blur(2px);
+            filter: blur(1px);
         }
         .car2 img {
             width: 100%;
