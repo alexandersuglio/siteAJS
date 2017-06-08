@@ -272,21 +272,21 @@
         }
         @keyframes carMove {
             0% {
-                left: -858px;
+                left: -380px;
                 top: 220px;
             }
             100% {
-                left: 858px;
+                left: 380px;
                 top: 220px;
             }
         }
         @keyframes carMoveii {
             0% {
-                right: -858px;
+                right: -380px;
                 top: 330px;
             }
             100% {
-                right: 858px;
+                right: 380px;
                 top: 330px;
             }
         }
