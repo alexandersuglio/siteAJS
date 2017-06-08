@@ -145,9 +145,9 @@
     }
     
     @media (max-width: 480px) {
-        body{
+       /* body{
             background: orange;
-        }
+        }*/
         #first {
             font-size: 25px;
             padding-left: 20px;
@@ -218,9 +218,9 @@
         }
     }
     @media (max-width: 360px) {
-        body{
+        /*body{
             background: red;
-        }
+        }*/
         #first {
             font-size: 20px;
             padding-left: 20px;
@@ -257,7 +257,7 @@
         }
         .subway2 img {
             position: absolute;
-            top: 280px;
+            top: 290px;
             z-index: -1;
         }
         .car2 {
@@ -272,21 +272,21 @@
         @keyframes carMove {
             0% {
                 left: -858px;
-                top: 405px;
+                top: 190px;
             }
             100% {
                 left: 858px;
-                top: 405px;
+                top: 190px;
             }
         }
         @keyframes carMoveii {
             0% {
                 right: -858px;
-                top: 840px;
+                top: 300px;
             }
             100% {
                 right: 858px;
-                top: 840px;
+                top: 300px;
             }
         }
     }
