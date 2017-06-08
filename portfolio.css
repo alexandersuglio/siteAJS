@@ -217,8 +217,8 @@
             }
         }
     }
-    @media (max-width: 360px) {
-        /*body{
+    @media (max-width: 380px) {
+       /* body{
             background: red;
         }*/
         #first {
