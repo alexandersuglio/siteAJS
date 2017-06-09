@@ -277,7 +277,7 @@
             font-size: 25px;
         }
         .car {
-            position: absolute;
+            position: relative;
             left: 0px;
             top: 100px;
             z-index: 1;
@@ -293,12 +293,12 @@
             /*overflow-x: hidden;*/
         }
         .subway img {
-            position: absolute;
+            position: relative;
             top: 180px;
             z-index: -1;
         }
         .subway2 img {
-            position: absolute;
+            position: relative;
             top: 290px;
             z-index: -1;
         }
@@ -309,7 +309,7 @@
             width: 100%;
         }
         .car2 {
-            position: absolute;
+            position: relative;
             z-index: 1;
             animation: carMoveii 2s infinite linear;
             filter: blur(1px);
