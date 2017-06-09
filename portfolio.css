@@ -275,27 +275,27 @@
         .car {
             position: relative;
             left: 0px;
-            top: 100px;
+            top: 0px;
             z-index: 1;
             animation: carMove 2s infinite linear;
             filter: blur(1px);
         }
         .car img {
-            width: 70%;
+            width: 90%;
             /*overflow-x: hidden;*/
         }
         .car2 img {
-            width: 70%;
+            width: 90%;
             /*overflow-x: hidden;*/
         }
         .subway img {
             position: relative;
-            top: 180px;
+            top: 70px;
             z-index: -1;
         }
         .subway2 img {
             position: relative;
-            top: 290px;
+            top: 20px;
             z-index: -1;
         }
 
@@ -306,6 +306,7 @@
         }
         .car2 {
             position: relative;
+            top: -50px;
             z-index: 1;
             animation: carMoveii 2s infinite linear;
             filter: blur(1px);
