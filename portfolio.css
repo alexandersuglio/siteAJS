@@ -305,7 +305,7 @@
 
         .carWrap {
             position: relative;
-            overflow-x: hidden;
+            overflow: hidden;
             width: 100%;
         }
         .car2 {
