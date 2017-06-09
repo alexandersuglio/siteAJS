@@ -1,0 +1,155 @@
+
+    .subway img,
+    .subway2 img {
+        width: 100%;
+    }
+    
+    h1 {
+        font-family: 'Ramabhadra', sans-serif;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    
+    #first {
+        font-size: 45px;
+        padding-left: 20px;
+        position: absolute;
+        top: 330px;
+    }
+    
+    #last {
+        font-size: 45px;
+        padding-left: 20px;
+        position: absolute;
+        top: 380px;
+    }
+    
+    #arrayHere {
+        position: absolute;
+        left: 190px;
+        top: 340px;
+        font-size: 50px;
+    }
+    
+    .subway img {
+        position: relative;
+        top: 400px;
+        z-index: -1;
+    }
+    
+    .subway2 img {
+        position: relative;
+        top: 770px;
+        z-index: -1;
+    }
+    
+    .car {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 100px;
+        z-index: 1;
+        animation: carMove 2.5s infinite linear;
+        filter: blur(1px);
+    }
+    
+    .car2 {
+        width: 100%;
+        position: relative;
+        right: 0px;
+        top: 460px;
+        z-index: 1;
+        animation: carMoveii 2.5s infinite linear;
+        filter: blur(2px);
+    }
+    
+    @keyframes carMove {
+        0% {
+            left: -2145px;
+        }
+        100% {
+            left: 2145px;
+        }
+    }
+    
+    @keyframes carMoveii {
+        0% {
+            right: -2145px;
+        }
+        100% {
+            right: 2145px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        /* body{
+            background: orange;
+        }*/
+        #first {
+            font-size: 25px;
+            padding-left: 20px;
+            position: absolute;
+            top: 120px;
+        }
+        #last {
+            font-size: 25px;
+            padding-left: 20px;
+            position: absolute;
+            top: 150px;
+        }
+        #arrayHere {
+            position: absolute;
+            left: 120px;
+            top: 130px;
+            font-size: 30px;
+        }
+        .car {
+            position: absolute;
+            left: 0px;
+            top: 100px;
+            z-index: 1;
+            animation: carMove 2s infinite linear;
+            filter: blur(1px);
+        }
+        .car img {
+            width: 200%;
+        }
+        .subway img {
+            position: absolute;
+            top: 200px;
+            z-index: -1;
+        }
+        .subway2 img {
+            position: absolute;
+            top: 350px;
+            z-index: -1;
+        }
+        .car2 {
+            position: absolute;
+            z-index: 1;
+            animation: carMoveii 2s infinite linear;
+            filter: blur(2px);
+        }
+        .car2 img {
+            width: 200%;
+        }
+        @keyframes carMove {
+            0% {
+                left: -858px;
+                top: 405px;
+            }
+            100% {
+                left: 858px;
+                top: 405px;
+            }
+        }
+        @keyframes carMoveii {
+            0% {
+                right: -858px;
+                top: 840px;
+            }
+            100% {
+                right: 858px;
+                top: 840px;
+            }
+        }
+    }
