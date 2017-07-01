@@ -1,368 +1,307 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    html,
-    body {
-        width: 100%;
-        height: 100%;
-    }
-    
-    body {
-        width: 100%;
-        background: black;
-        /*background-image: url('http://www.isourcetextures.com/site_files/image/metal--painted-metal-LD.jpg');*/
-        overflow-x: hidden;
-        overflow-y: scroll;
-    }
-    
-    .sky {
-        width: 100%;
-        animation: skychange 60s infinite normal ease-out;
-    }
-    
-    @keyframes skychange {
-        0% {
-            background: #ABEAFF;
-        }
-        20% {
-            background: #C4F0FF;
-        }
-        40% {
-            background: #FABBBB;
-        }
-        60% {
-            background: #022E7A;
-        }
-        80% {
-            background: #2F3233;
-        }
-        100% {
-            background: #ABEAFF;
-        }
-    }
-    
-    .city img {
-        width: 100%;
-    }
-    /*animation: colorChange 1s infinite normal ease-out;*/
-    /*@keyframes colorChange {
-    0% {
-        filter: invert(100%);
-    }
-    50% {
-        filter: invert(5%);
-        filter: hue-rotate(-180);
-    }
-    100% {
-        filter: invert(100%);
-    }
-}*/
-   #art1 {
-    width: 20%;
-    position: absolute;
-    left: 200px;
-    top: 510px;
-   } 
-
-   #art2{
-      width: 20%;
-    position: absolute;
-    left: 500px;
-    top: 510px;
+   * {
+       margin: 0;
+       padding: 0;
    }
-#one {
-        position: absolute;
-        top: 550px;
-        left: 200px;
-        border: 5px solid coral;
-        background-color: green;
-    }
-    #two {
-        position: absolute;
-        top: 550px;
-        left: 600px;
-    }
-    #three {
-        position: absolute;
-        top: 550px;
-        left: 1000px;
-    }
-
-
-    .subway img,
-    .subway2 img {
-        width: 100%;
-    }
-    
-    h1 {
-        font-family: 'Ramabhadra', sans-serif;
-        color: rgba(255, 255, 255, 0.9);
-    }
-    
-    #first {
-        font-size: 45px;
-        padding-left: 20px;
-        position: absolute;
-        top: 330px;
-    }
-    
-    #last {
-        font-size: 45px;
-        padding-left: 20px;
-        position: absolute;
-        top: 380px;
-    }
-    
-    #arrayHere {
-        position: absolute;
-        left: 190px;
-        top: 340px;
-        font-size: 50px;
-    }
-    
-    .subway img {
-        position: relative;
-        top: 400px;
-        z-index: -1;
-    }
-    
-    .subway2 img {
-        position: relative;
-        top: 770px;
-        z-index: -1;
-    }
-    
-    .car {
-        width: 100%;
-        position: relative;
-        left: 0px;
-        top: 100px;
-        z-index: 1;
-        animation: carMove 2.5s infinite linear;
-        filter: blur(1px);
-    }
-    
-    .car2 {
-        width: 100%;
-        position: relative;
-        right: 0px;
-        top: 460px;
-        z-index: 1;
-        animation: carMoveii 2.5s infinite linear;
-        filter: blur(2px);
-    }
-    
-    @keyframes carMove {
-        0% {
-            left: -2145px;
-        }
-        100% {
-            left: 2145px;
-        }
-    }
-    
-    @keyframes carMoveii {
-        0% {
-            right: -2145px;
-        }
-        100% {
-            right: 2145px;
-        }
-    }
-    
-    @media (max-width: 480px) {
-        /* body{
-            background: orange;
-        }*/
-        #first {
-            font-size: 25px;
-            padding-left: 20px;
-            position: absolute;
-            top: 120px;
-        }
-        #last {
-            font-size: 25px;
-            padding-left: 20px;
-            position: absolute;
-            top: 150px;
-        }
-        #arrayHere {
-            position: absolute;
-            left: 120px;
-            top: 130px;
-            font-size: 30px;
-        }
-        .car {
-            position: absolute;
-            left: 0px;
-            top: 100px;
-            z-index: 1;
-            animation: carMove 2s infinite linear;
-            filter: blur(1px);
-        }
-        .car img {
-            width: 200%;
-        }
-        .subway img {
-            position: absolute;
-            top: 200px;
-            z-index: -1;
-        }
-        .subway2 img {
-            position: absolute;
-            top: 350px;
-            z-index: -1;
-        }
-        .car2 {
-            position: absolute;
-            z-index: 1;
-            animation: carMoveii 2s infinite linear;
-            filter: blur(2px);
-        }
-        .car2 img {
-            width: 200%;
-        }
-        @keyframes carMove {
-            0% {
-                left: -858px;
-                top: 405px;
-            }
-            100% {
-                left: 858px;
-                top: 405px;
-            }
-        }
-        @keyframes carMoveii {
-            0% {
-                right: -858px;
-                top: 840px;
-            }
-            100% {
-                right: 858px;
-                top: 840px;
-            }
-        }
-    }
-    
-    @media (max-width: 380px) {
-        body {
-            /*overflow-x: hidden;*/
-            /*background: red;*/
-        }
-        .city img {
-            width: 100%;
-        }
-        #first {
-            font-size: 20px;
-            padding-left: 20px;
-            position: absolute;
-            top: 100px;
-        }
-        #last {
-            font-size: 20px;
-            padding-left: 20px;
-            position: absolute;
-            top: 125px;
-        }
-        #arrayHere {
-            position: absolute;
-            left: 100px;
-            top: 105px;
-            font-size: 25px;
-        }
-        .car {
-            position: relative;
-            left: 0px;
-            top: 0px;
-            z-index: 1;
-            animation: carMove 2s infinite linear;
-            filter: blur(1px);
-        }
-        .car img {
-            width: 90%;
-            /*overflow-x: hidden;*/
-        }
-        .car2 img {
-            width: 90%;
-            /*overflow-x: hidden;*/
-        }
-        .subway img {
-            position: relative;
-            top: 70px;
-            z-index: -1;
-        }
-        .subway2 img {
-            position: relative;
-            top: 20px;
-            z-index: -1;
-        }
-
-        .carWrap {
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-        }
-        .car2 {
-            position: relative;
-            top: -50px;
-            z-index: 1;
-            animation: carMoveii 2s infinite linear;
-            filter: blur(1px);
-        }
-
-        #art1 {
-            top: 195px;
-            left: 70px;
-            z-index: 1;
-        }
-
-        #art2 {
-            top: 195px;
-            left: 200px;
-            z-index: 1;
-        }
-        @keyframes carMove {
-            0% {
-                left: -380px;
-                /*top: 220px;*/
-            }
-            100% {
-                left: 380px;
-                /*top: 220px;*/
-            }
-        }
-        @keyframes carMoveii {
-            0% {
-                right: -380px;
-                /*top: 330px;*/
-            }
-            100% {
-                right: 380px;
-                /*top: 330px;*/
-            }
-        }
-    }
-    /*for big monitors*/
-    /*  @media (max-width: 1700px) {
-        #first {
-            font-size: 45px;
-            padding-left: 20px;
-            position: absolute;
-            top: 400px;
-        }
-        #last {
-            font-size: 45px;
-            padding-left: 20px;
-            position: absolute;
-            top: 450px;
-        }
-        #arrayHere {
-            position: absolute;
-            left: 190px;
-            top: 410px;
-            font-size: 50px;
-        }
-    }*/
-    /* Alex Monitor lives inside here max-width: 1400px;*/
+   
+   html,
+   body {
+       width: 100%;
+       height: 100%;
+   }
+   
+   body {
+       width: 100%;
+       background: black;
+       overflow-x: hidden;
+       overflow-y: scroll;
+   }
+   
+   .sky {
+       width: 100%;
+       animation: skychange 60s infinite normal ease-out;
+   }
+   
+   @keyframes skychange {
+       0% {
+           background: #ABEAFF;
+       }
+       20% {
+           background: #C4F0FF;
+       }
+       40% {
+           background: #FABBBB;
+       }
+       60% {
+           background: #022E7A;
+       }
+       80% {
+           background: #2F3233;
+       }
+       100% {
+           background: #ABEAFF;
+       }
+   }
+   
+   .city img {
+       width: 100%;
+   }
+   
+   h1 {
+       font-family: 'Ramabhadra', sans-serif;
+       color: rgba(255, 255, 255, 0.9);
+   }
+   
+   .subwayWrap,
+   .subwayWrap2 {
+       position: relative;
+   }
+   
+   .carWrap img {
+       width: 100%;
+       z-index: 1;
+       position: absolute;
+       bottom: 15px;
+       animation: carMove 2.5s infinite linear;
+       filter: blur(1px);
+   }
+   
+   @keyframes carMove {
+       0% {
+           left: -1440px;
+       }
+       100% {
+           left: 1440px;
+       }
+   }
+   
+   .carWrap2 img {
+       width: 100%;
+       z-index: 1;
+       position: absolute;
+       bottom: 15px;
+       animation: carMoveii 2.5s infinite linear;
+       filter: blur(1px);
+   }
+   
+   @keyframes carMoveii {
+       0% {
+           left: 1440px;
+       }
+       100% {
+           left: -1440px;
+       }
+   }
+   /*before media queries*/
+   /*large monitors*/
+   
+   #first,
+   #last {
+       font-size: 50px;
+   }
+   
+   #nameWrap {
+       margin-top: 20px;
+       margin-left: 20px;
+       padding-left: 20px;
+       padding-bottom: 20px;
+   }
+   
+   #last {
+       margin-top: -40px;
+   }
+   
+   #arrayHere {
+       margin-left: 160px;
+       margin-top: -125px;
+       font-size: 55px;
+   }
+   
+   .subwayWrap img {
+       width: 100%;
+   }
+   
+   .subwayWrap2 img {
+       width: 100%;
+   }
+   /*Laptops*/
+   
+   @media (max-width: 1024px) {
+       #first,
+       #last {
+           font-size: 45px;
+       }
+       #nameWrap {
+           margin-top: 20px;
+           margin-left: 20px;
+           padding-left: 20px;
+           padding-bottom: 20px;
+       }
+       #last {
+           margin-top: -40px;
+       }
+       #arrayHere {
+           margin-left: 160px;
+           margin-top: -125px;
+           font-size: 50px;
+       }
+       .subwayWrap img {
+           width: 100%;
+       }
+       .subwayWrap2 img {
+           width: 100%;
+       }
+       .carWrap img {
+           width: 100%;
+           z-index: 1;
+           position: absolute;
+           bottom: 15px;
+           animation: carMove 2.5s infinite linear;
+           filter: blur(1px);
+       }
+       @keyframes carMove {
+           0% {
+               left: -1024px;
+           }
+           100% {
+               left: 1024px;
+           }
+       }
+       .carWrap2 img {
+           width: 100%;
+           z-index: 1;
+           position: absolute;
+           bottom: 15px;
+           animation: carMoveii 2.5s infinite linear;
+           filter: blur(1px);
+       }
+       @keyframes carMoveii {
+           0% {
+               left: 1024px;
+           }
+           100% {
+               left: -1024px;
+           }
+       }
+   }
+   /*Tablets*/
+   
+   @media (max-width: 768px) {
+       #first,
+       #last {
+           font-size: 45px;
+       }
+       #nameWrap {
+           margin-top: 20px;
+           margin-left: 20px;
+           padding-left: 20px;
+           padding-bottom: 20px;
+       }
+       #last {
+           margin-top: -40px;
+       }
+       #arrayHere {
+           margin-left: 160px;
+           margin-top: -125px;
+           font-size: 50px;
+       }
+       .subwayWrap img {
+           width: 100%;
+          
+       }
+       .subwayWrap2 img {
+           width: 100%;
+           
+       }
+       .carWrap img {
+           width: 100%;
+           z-index: 1;
+           position: absolute;
+           bottom: 15px;
+           animation: carMove 2.5s infinite linear;
+           filter: blur(1px);
+       }
+       @keyframes carMove {
+           0% {
+               left: -768px;
+           }
+           100% {
+               left: 768px;
+           }
+       }
+       .carWrap2 img {
+           width: 100%;
+           z-index: 1;
+           position: absolute;
+           bottom: 15px;
+           animation: carMoveii 2.5s infinite linear;
+           filter: blur(1px);
+       }
+       @keyframes carMoveii {
+           0% {
+               left: 768px;
+           }
+           100% {
+               left: -768px;
+           }
+       }
+   }
+   /*Small devices*/
+   
+   @media (max-width: 425px) {
+       #first,
+       #last {
+           font-size: 20px;
+       }
+       #nameWrap {
+           margin-top: 10px;
+           margin-left: 10px;
+           padding-left: 10px;
+           margin-bottom: -10px;
+       }
+       #last {
+           margin-top: -15px;
+       }
+       #arrayHere {
+           margin-left: 75px;
+           padding-top: 70px;
+           font-size: 25px;
+       }
+       .subwayWrapimg {
+           width: 100%;
+       }
+       .subwayWrap2 img {
+           width: 100%;
+       }
+       .carWrap img {
+           width: 100%;
+           z-index: 1;
+           position: absolute;
+           bottom: 15px;
+           animation: carMove 2.5s infinite linear;
+           filter: blur(1px);
+       }
+       @keyframes carMove {
+           0% {
+               left: -425px;
+           }
+           100% {
+               left: 425px;
+           }
+       }
+       .carWrap2 img {
+           width: 100%;
+           z-index: 1;
+           position: absolute;
+           bottom: 15px;
+           animation: carMoveii 2.5s infinite linear;
+           filter: blur(1px);
+       }
+       @keyframes carMoveii {
+           0% {
+               left: 425px;
+           }
+           100% {
+               left: -425px;
+           }
+       }
+   }
