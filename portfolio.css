@@ -396,3 +396,40 @@ top: 9vw !important;
 
    }
    }
+
+
+@media (max-width: 375px) {
+
+.carWrap img {
+           width: 100%;
+           z-index: 1;
+           position: absolute;
+           bottom: 15px;
+           animation: carMove 2.5s infinite linear;
+           filter: blur(1px);
+       }
+       @keyframes carMove {
+           0% {
+               left: -375px;
+           }
+           100% {
+               left: 375px;
+           }
+       }
+       .carWrap2 img {
+           width: 100%;
+           z-index: 1;
+           position: absolute;
+           bottom: 15px;
+           animation: carMoveii 2.5s infinite linear;
+           filter: blur(1px);
+       }
+       @keyframes carMoveii {
+           0% {
+               left: 375px;
+           }
+           100% {
+               left: -375px;
+           }
+       }
+}
