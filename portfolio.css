@@ -13,7 +13,7 @@
    body {
        width: 100%;
        background: black;
-       overflow-x: hidden;
+       overflow-x: scroll;
        overflow-y: scroll;
    }
    
@@ -109,10 +109,10 @@
    }
    @keyframes carMove {
        0% {
-           left: 0;
+           left: 1%;
        }
        100% {
-           left: 100%;
+           left: 10%;
        }
    }
    
@@ -127,10 +127,10 @@
    
    @keyframes carMoveii {
         0% {
-           left: 0;
+           left: 10%;
        }
        100% {
-           left: 100%;
+           left: 50%;
        }
    }
    /*before media queries*/
@@ -267,7 +267,7 @@ top: 9vw !important;
    }
 
    @media (max-width: 640px) {
-.carWrap img {
+/*.carWrap img {
            width: 100%;
            z-index: 1;
            position: absolute;
@@ -299,7 +299,7 @@ top: 9vw !important;
                left: -640px;
            }
        }
-   }
+   }*/
 
    }
    /*Small devices*/
