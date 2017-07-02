@@ -13,7 +13,7 @@
    body {
        width: 100%;
        background: black;
-       overflow-x: scroll;
+       overflow-x: hidden;
        overflow-y: scroll;
    }
    
@@ -98,7 +98,10 @@
     margin-top: -15vw;
         font-size: 7vw;
    }
-
+.cars{
+       /*overflow-x: scroll !important;*/
+	
+}
    .carWrap img {
        width: 100%;
        z-index: 1;
@@ -108,11 +111,12 @@
        filter: blur(1px);
    }
    @keyframes carMove {
+
        0% {
-           left: 10%;
+           left: -100%;
        }
        100% {
-           left: 10%;
+           left: 100%;
        }
    }
    
