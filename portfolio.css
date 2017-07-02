@@ -99,7 +99,7 @@
         font-size: 7vw;
    }
 
-/*   .carWrap img {
+   .carWrap img {
        width: 100%;
        z-index: 1;
        position: absolute;
@@ -109,10 +109,10 @@
    }
    @keyframes carMove {
        0% {
-           left: -2600px;
+           left: 0;
        }
        100% {
-           left: 2600px;
+           left: 100%;
        }
    }
    
@@ -126,37 +126,17 @@
    }
    
    @keyframes carMoveii {
-       0% {
-           left: 2600px;
+        0% {
+           left: 0;
        }
        100% {
-           left: -2600px;
+           left: 100%;
        }
-   }*/
+   }
    /*before media queries*/
    /*large monitors*/
    
-  /* #first,
-   #last {
-       font-size: 5vw;
-   }
-   
-   #nameWrap {
-       margin-top: 20px;
-       margin-left: 20px;
-       padding-left: 20px;
-       padding-bottom: 20px;
-   }
-   
-   #last {
-       margin-top: -40px;
-   }
-   
-   #arrayHere {
-       margin-left: 160px;
-       margin-top: -125px;
-        font-size: 7vw;
-   }*/
+
    
    .subwayWrap img {
        width: 100%;
@@ -168,31 +148,14 @@
    /*Laptops*/
    
    @media (max-width: 1024px) {
-      /* #first,
-       #last {
-           font-size: 5vw;
-       }
-       #nameWrap {
-           margin-top: 20px;
-           margin-left: 20px;
-           padding-left: 20px;
-           padding-bottom: 20px;
-       }
-       #last {
-           margin-top: -40px;
-       }
-       #arrayHere {
-           margin-left: 160px;
-           margin-top: -125px;
-           font-size: 7vw;
-       }*/
+  
        .subwayWrap img {
            width: 100%;
        }
        .subwayWrap2 img {
            width: 100%;
        }
-    /*   .carWrap img {
+      /* .carWrap img {
            width: 100%;
            z-index: 1;
            position: absolute;
@@ -244,24 +207,7 @@ top: 9vw !important;
    /*Tablets*/
    
    @media (max-width: 768px) {
-      /* #first,
-       #last {
-           font-size: 5vw;
-       }
-       #nameWrap {
-           margin-top: 20px;
-           margin-left: 20px;
-           padding-left: 20px;
-           padding-bottom: 20px;
-       }
-       #last {
-           margin-top: -40px;
-       }
-       #arrayHere {
-           margin-left: 160px;
-           margin-top: -125px;
-           font-size: 7vw;
-       }*/
+     
        .subwayWrap img {
            width: 100%;
           
@@ -270,7 +216,7 @@ top: 9vw !important;
            width: 100%;
            
        }
-   /*    .carWrap img {
+       /*.carWrap img {
            width: 100%;
            z-index: 1;
            position: absolute;
@@ -301,8 +247,8 @@ top: 9vw !important;
            100% {
                left: -768px;
            }
-       }
-*/
+       }*/
+
       .subwayArt {
   	width: 20% !important;
    	position: absolute;
@@ -323,31 +269,14 @@ top: 9vw !important;
    /*Small devices*/
    
    @media (max-width: 425px) {
-    /*   #first,
-       #last {
-           font-size: 5vw;
-       }
-       #nameWrap {
-           margin-top: 10px;
-           margin-left: 10px;
-           padding-left: 10px;
-           margin-bottom: -10px;
-       }
-       #last {
-           margin-top: -15px;
-       }
-       #arrayHere {
-           margin-left: 75px;
-           padding-top: 70px;
-            font-size: 7vw;
-       }*/
+   
        .subwayWrapimg {
            width: 100%;
        }
        .subwayWrap2 img {
            width: 100%;
        }
-   /*    .carWrap img {
+     /*  .carWrap img {
            width: 100%;
            z-index: 1;
            position: absolute;
