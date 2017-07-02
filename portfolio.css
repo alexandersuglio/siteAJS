@@ -109,14 +109,14 @@
    }
    @keyframes carMove {
        0% {
-           left: 1%;
+           left: 10%;
        }
        100% {
            left: 10%;
        }
    }
    
-   .carWrap2 img {
+  /* .carWrap2 img {
        width: 100%;
        z-index: 1;
        position: absolute;
@@ -132,7 +132,7 @@
        100% {
            left: 50%;
        }
-   }
+   }*/
    /*before media queries*/
    /*large monitors*/
    
