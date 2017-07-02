@@ -2,6 +2,7 @@
        margin: 0;
        padding: 0;
    }
+
    
    html,
    body {
@@ -65,12 +66,53 @@
        filter: blur(1px);
    }
    
+  .subwayArt {
+  	width: 20% !important;
+   	position: absolute;
+ top: 9vw !important;
+  left: 20vw !important;
+   }
+
+     .subwayArt2 {
+       width: 20% !important;
+    position: absolute;
+     top: 9vw !important;
+  right: 20vw !important;
+
+
+
+
+   }
+ #first,
+   #last {
+       font-size: 5vw;
+   }
+   
+   #nameWrap {
+   	
+       margin-top: 2vw;
+       margin-left: 2vw;
+       padding-left: 2vw;
+       padding-bottom: 0vw;
+      
+   }
+   
+   #last {
+       margin-top: -4vw;
+   }
+   
+   #arrayHere {
+         margin-left: 17vw;
+    margin-top: -15vw;
+        font-size: 7vw;
+   }
+
    @keyframes carMove {
        0% {
-           left: -1440px;
+           left: -2600px;
        }
        100% {
-           left: 1440px;
+           left: 2600px;
        }
    }
    
@@ -85,18 +127,18 @@
    
    @keyframes carMoveii {
        0% {
-           left: 1440px;
+           left: 2600px;
        }
        100% {
-           left: -1440px;
+           left: -2600px;
        }
    }
    /*before media queries*/
    /*large monitors*/
    
-   #first,
+  /* #first,
    #last {
-       font-size: 50px;
+       font-size: 5vw;
    }
    
    #nameWrap {
@@ -113,8 +155,8 @@
    #arrayHere {
        margin-left: 160px;
        margin-top: -125px;
-       font-size: 55px;
-   }
+        font-size: 7vw;
+   }*/
    
    .subwayWrap img {
        width: 100%;
@@ -126,9 +168,9 @@
    /*Laptops*/
    
    @media (max-width: 1024px) {
-       #first,
+      /* #first,
        #last {
-           font-size: 45px;
+           font-size: 5vw;
        }
        #nameWrap {
            margin-top: 20px;
@@ -142,8 +184,8 @@
        #arrayHere {
            margin-left: 160px;
            margin-top: -125px;
-           font-size: 50px;
-       }
+           font-size: 7vw;
+       }*/
        .subwayWrap img {
            width: 100%;
        }
@@ -182,13 +224,29 @@
                left: -1024px;
            }
        }
+ .subwayArt {
+  	width: 20% !important;
+   	position: absolute;
+top: 9vw !important;
+    left: 20vw !important;
+   }
+       .subwayArt2 {
+       width: 20% !important;
+    position: absolute;
+     top: 9vw !important;
+  right: 20vw !important;
+
+
+
+
+   } 
    }
    /*Tablets*/
    
    @media (max-width: 768px) {
-       #first,
+      /* #first,
        #last {
-           font-size: 45px;
+           font-size: 5vw;
        }
        #nameWrap {
            margin-top: 20px;
@@ -202,8 +260,8 @@
        #arrayHere {
            margin-left: 160px;
            margin-top: -125px;
-           font-size: 50px;
-       }
+           font-size: 7vw;
+       }*/
        .subwayWrap img {
            width: 100%;
           
@@ -244,13 +302,30 @@
                left: -768px;
            }
        }
+
+      .subwayArt {
+  	width: 20% !important;
+   	position: absolute;
+      top:9vw!important;
+      left: 20vw !important;
+   }
+     .subwayArt2 {
+       width: 20% !important;
+    position: absolute;
+     top: 9vw !important;
+  right: 20vw !important;
+
+
+
+
+   }
    }
    /*Small devices*/
    
    @media (max-width: 425px) {
-       #first,
+    /*   #first,
        #last {
-           font-size: 20px;
+           font-size: 5vw;
        }
        #nameWrap {
            margin-top: 10px;
@@ -264,8 +339,8 @@
        #arrayHere {
            margin-left: 75px;
            padding-top: 70px;
-           font-size: 25px;
-       }
+            font-size: 7vw;
+       }*/
        .subwayWrapimg {
            width: 100%;
        }
@@ -304,4 +379,20 @@
                left: -425px;
            }
        }
+  .subwayArt {
+  	width: 20% !important;
+   	position: absolute;
+ top: 9vw !important;
+  left: 20vw !important;
+   }
+     .subwayArt2 {
+       width: 20% !important;
+    position: absolute;
+     top: 9vw !important;
+  right: 20vw !important;
+
+
+
+
+   }
    }
