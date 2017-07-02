@@ -3,7 +3,9 @@
        padding: 0;
    }
 
-   
+    .bodyView {
+    	overflow-x: hidden;
+    }
    html,
    body {
        width: 100%;
@@ -13,7 +15,7 @@
    body {
        width: 100%;
        background: black;
-       overflow-x: hidden;
+       /*overflow-x: hidden;*/
        overflow-y: scroll;
    }
    
