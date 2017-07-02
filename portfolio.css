@@ -15,7 +15,6 @@
    body {
        width: 100%;
        background: black;
-       /*overflow-x: hidden;*/
        overflow-y: scroll;
    }
    
@@ -100,10 +99,7 @@
     margin-top: -15vw;
         font-size: 7vw;
    }
-.cars{
-       /*overflow-x: scroll !important;*/
-	
-}
+
    .carWrap img {
        width: 100%;
        z-index: 1;
@@ -122,7 +118,7 @@
        }
    }
    
-  /* .carWrap2 img {
+   .carWrap2 img {
        width: 100%;
        z-index: 1;
        position: absolute;
@@ -133,12 +129,12 @@
    
    @keyframes carMoveii {
         0% {
-           left: 10%;
+           left: -100%;
        }
        100% {
-           left: 50%;
+           left: 100%;
        }
-   }*/
+   }
    /*before media queries*/
    /*large monitors*/
    
@@ -161,38 +157,7 @@
        .subwayWrap2 img {
            width: 100%;
        }
-      /* .carWrap img {
-           width: 100%;
-           z-index: 1;
-           position: absolute;
-           bottom: 15px;
-           animation: carMove 2.5s infinite linear;
-           filter: blur(1px);
-       }
-       @keyframes carMove {
-           0% {
-               left: -1024px;
-           }
-           100% {
-               left: 1024px;
-           }
-       }
-       .carWrap2 img {
-           width: 100%;
-           z-index: 1;
-           position: absolute;
-           bottom: 15px;
-           animation: carMoveii 2.5s infinite linear;
-           filter: blur(1px);
-       }
-       @keyframes carMoveii {
-           0% {
-               left: 1024px;
-           }
-           100% {
-               left: -1024px;
-           }
-       }*/
+      
  .subwayArt {
   	width: 20% !important;
    	position: absolute;
@@ -222,38 +187,7 @@ top: 9vw !important;
            width: 100%;
            
        }
-       /*.carWrap img {
-           width: 100%;
-           z-index: 1;
-           position: absolute;
-           bottom: 15px;
-           animation: carMove 2.5s infinite linear;
-           filter: blur(1px);
-       }
-       @keyframes carMove {
-           0% {
-               left: -768px;
-           }
-           100% {
-               left: 768px;
-           }
-       }
-       .carWrap2 img {
-           width: 100%;
-           z-index: 1;
-           position: absolute;
-           bottom: 15px;
-           animation: carMoveii 2.5s infinite linear;
-           filter: blur(1px);
-       }
-       @keyframes carMoveii {
-           0% {
-               left: 768px;
-           }
-           100% {
-               left: -768px;
-           }
-       }*/
+       
 
       .subwayArt {
   	width: 20% !important;
@@ -272,42 +206,7 @@ top: 9vw !important;
 
    }
 
-   @media (max-width: 640px) {
-/*.carWrap img {
-           width: 100%;
-           z-index: 1;
-           position: absolute;
-           bottom: 15px;
-           animation: carMove 2.5s infinite linear;
-           filter: blur(1px);
-       }
-       @keyframes carMove {
-           0% {
-               left: -640px;
-           }
-           100% {
-               left: 640px;
-           }
-       }
-       .carWrap2 img {
-           width: 100%;
-           z-index: 1;
-           position: absolute;
-           bottom: 15px;
-           animation: carMoveii 2.5s infinite linear;
-           filter: blur(1px);
-       }
-       @keyframes carMoveii {
-           0% {
-               left: 640px;
-           }
-           100% {
-               left: -640px;
-           }
-       }
-   }*/
-
-   }
+ 
    /*Small devices*/
    
    @media (max-width: 425px) {
@@ -318,38 +217,7 @@ top: 9vw !important;
        .subwayWrap2 img {
            width: 100%;
        }
-     /*  .carWrap img {
-           width: 100%;
-           z-index: 1;
-           position: absolute;
-           bottom: 15px;
-           animation: carMove 2.5s infinite linear;
-           filter: blur(1px);
-       }
-       @keyframes carMove {
-           0% {
-               left: -425px;
-           }
-           100% {
-               left: 425px;
-           }
-       }
-       .carWrap2 img {
-           width: 100%;
-           z-index: 1;
-           position: absolute;
-           bottom: 15px;
-           animation: carMoveii 2.5s infinite linear;
-           filter: blur(1px);
-       }
-       @keyframes carMoveii {
-           0% {
-               left: 425px;
-           }
-           100% {
-               left: -425px;
-           }
-       }*/
+    
   .subwayArt {
   	width: 20% !important;
    	position: absolute;
@@ -369,38 +237,3 @@ top: 9vw !important;
    }
 
 
-@media (max-width: 375px) {
-
-/*.carWrap img {
-           width: 100%;
-           z-index: 1;
-           position: absolute;
-           bottom: 15px;
-           animation: carMove 2.5s infinite linear;
-           filter: blur(1px);
-       }
-       @keyframes carMove {
-           0% {
-               left: -375px;
-           }
-           100% {
-               left: 375px;
-           }
-       }
-       .carWrap2 img {
-           width: 100%;
-           z-index: 1;
-           position: absolute;
-           bottom: 15px;
-           animation: carMoveii 2.5s infinite linear;
-           filter: blur(1px);
-       }
-       @keyframes carMoveii {
-           0% {
-               left: 375px;
-           }
-           100% {
-               left: -375px;
-           }
-       }*/
-}
