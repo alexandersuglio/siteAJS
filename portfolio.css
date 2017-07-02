@@ -57,14 +57,6 @@
        position: relative;
    }
    
-   .carWrap img {
-       width: 100%;
-       z-index: 1;
-       position: absolute;
-       bottom: 15px;
-       animation: carMove 2.5s infinite linear;
-       filter: blur(1px);
-   }
    
   .subwayArt {
   	width: 20% !important;
@@ -107,6 +99,14 @@
         font-size: 7vw;
    }
 
+/*   .carWrap img {
+       width: 100%;
+       z-index: 1;
+       position: absolute;
+       bottom: 15px;
+       animation: carMove 2.5s infinite linear;
+       filter: blur(1px);
+   }
    @keyframes carMove {
        0% {
            left: -2600px;
@@ -132,7 +132,7 @@
        100% {
            left: -2600px;
        }
-   }
+   }*/
    /*before media queries*/
    /*large monitors*/
    
@@ -192,7 +192,7 @@
        .subwayWrap2 img {
            width: 100%;
        }
-       .carWrap img {
+    /*   .carWrap img {
            width: 100%;
            z-index: 1;
            position: absolute;
@@ -223,7 +223,7 @@
            100% {
                left: -1024px;
            }
-       }
+       }*/
  .subwayArt {
   	width: 20% !important;
    	position: absolute;
@@ -270,7 +270,7 @@ top: 9vw !important;
            width: 100%;
            
        }
-       .carWrap img {
+   /*    .carWrap img {
            width: 100%;
            z-index: 1;
            position: absolute;
@@ -302,7 +302,7 @@ top: 9vw !important;
                left: -768px;
            }
        }
-
+*/
       .subwayArt {
   	width: 20% !important;
    	position: absolute;
@@ -347,7 +347,7 @@ top: 9vw !important;
        .subwayWrap2 img {
            width: 100%;
        }
-       .carWrap img {
+   /*    .carWrap img {
            width: 100%;
            z-index: 1;
            position: absolute;
@@ -378,7 +378,7 @@ top: 9vw !important;
            100% {
                left: -425px;
            }
-       }
+       }*/
   .subwayArt {
   	width: 20% !important;
    	position: absolute;
@@ -400,7 +400,7 @@ top: 9vw !important;
 
 @media (max-width: 375px) {
 
-.carWrap img {
+/*.carWrap img {
            width: 100%;
            z-index: 1;
            position: absolute;
@@ -431,5 +431,5 @@ top: 9vw !important;
            100% {
                left: -375px;
            }
-       }
+       }*/
 }
