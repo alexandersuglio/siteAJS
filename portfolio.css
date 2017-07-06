@@ -2,10 +2,42 @@
        margin: 0;
        padding: 0;
    }
+   
+   .bodyView {
+       overflow-x: hidden;
+   }
+   
+   #about {
+       /*background-image: url('https://s-media-cache-ak0.pinimg.com/originals/22/be/e5/22bee50cd67816ace847d5caf5924aaa.jpg');*/
+     background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
+       /*background-image: url('http://static3.businessinsider.com/image/52fcf63feab8ea7877e32183/the-best-coffee-shop-near-every-new-york-city-subway-stop-map.jpg');*/
+       /*background-position: left;*/
+       background-position: left 25%;
+   }
+   
 
-    .bodyView {
-    	overflow-x: hidden;
-    }
+   #portfolio {     background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
+
+       /*background-image: url('http://static3.businessinsider.com/image/52fcf63feab8ea7877e32183/the-best-coffee-shop-near-every-new-york-city-subway-stop-map.jpg');*/
+       /*background-position: left;*/
+       background-position: left 70%;
+   }
+   
+   #skills {
+         background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
+
+       /*background-image: url('http://static3.businessinsider.com/image/52fcf63feab8ea7877e32183/the-best-coffee-shop-near-every-new-york-city-subway-stop-map.jpg');*/
+       /*background-position: bottom;*/
+       background-position: left;
+   }
+   
+   .textWrap {
+       background: linear-gradient(black, rgba(0, 0, 0, 0.8), black);
+   }
+   /* #skills-head {
+  	background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.0)); 
+  }*/
+   
    html,
    body {
        width: 100%;
@@ -18,10 +50,51 @@
        overflow-y: scroll;
    }
    
+   .devicon-git-plain,
+   .devicon-mysql-plain-wordmark,
+   .devicon-nodejs-plain-wordmark,
+   .devicon-mongodb-plain-wordmark,
+   .devicon-jquery-plain-wordmark,
+   .devicon-javascript-plain,
+   .devicon-heroku-plain-wordmark,
+   .devicon-css3-plain-wordmark,
+   .devicon-html5-plain-wordmark,
+   .devicon-photoshop-plain {
+       margin-left: 2vw;
+       font-size: 100px;
+       color: white;
+   }
+   
+   p {
+       font-size: 15px;
+       font-family: 'Open Sans', sans-serif;
+       color: rgba(255, 255, 255, .7);
+       padding-top: 0vw;
+       padding-left: 2vw;
+       padding-right: 2vw;
+       padding-bottom: 1vw;
+   }
+   
    .sky {
        width: 100%;
        animation: skychange 60s infinite normal ease-out;
    }
+   
+   #about h1 {
+       padding-left: 2vw;
+   }
+   
+   #portfolio h1 {
+       margin-left: 2vw;
+   }
+    #skills h1 {
+       margin-left: 2vw;
+   }
+
+   /*#skillsWrap {
+   	position: absolute;
+   	padding-left: 10px;
+   }*/
    
    @keyframes skychange {
        0% {
@@ -44,6 +117,8 @@
        }
    }
    
+  
+   
    .city img {
        width: 100%;
    }
@@ -58,36 +133,30 @@
        position: relative;
    }
    
-   
-  .subwayArt {
-  	width: 20% !important;
-   	position: absolute;
- top: 9vw !important;
-  left: 20vw !important;
-   }
-
-     .subwayArt2 {
+   .subwayArt {
        width: 20% !important;
-    position: absolute;
-     top: 9vw !important;
-  right: 20vw !important;
-
-
-
-
+       position: absolute;
+       top: 4vw !important;
+       left: 20vw !important;
    }
- #first,
+   
+   .subwayArt2 {
+       width: 20% !important;
+       position: absolute;
+       top: 4vw !important;
+       right: 20vw !important;
+   }
+   
+   #first,
    #last {
        font-size: 5vw;
    }
    
    #nameWrap {
-   	
-       margin-top: 2vw;
+       margin-top: 0vw;
        margin-left: 2vw;
        padding-left: 2vw;
-       padding-bottom: 0vw;
-      
+       margin-bottom: 1vw;
    }
    
    #last {
@@ -95,11 +164,11 @@
    }
    
    #arrayHere {
-         margin-left: 17vw;
-    margin-top: -15vw;
-        font-size: 7vw;
+       margin-left: 17vw;
+       margin-top: -15vw;
+       font-size: 7vw;
    }
-
+   
    .carWrap img {
        width: 100%;
        z-index: 1;
@@ -108,8 +177,8 @@
        animation: carMove 2.5s infinite linear;
        filter: blur(1px);
    }
+   
    @keyframes carMove {
-
        0% {
            left: -100%;
        }
@@ -128,7 +197,7 @@
    }
    
    @keyframes carMoveii {
-        0% {
+       0% {
            left: 100%;
        }
        100% {
@@ -138,7 +207,9 @@
    /*before media queries*/
    /*large monitors*/
    
-
+   a img:hover {
+       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
+   }
    
    .subwayWrap img {
        width: 100%;
@@ -150,90 +221,30 @@
    /*Laptops*/
    
    @media (max-width: 1024px) {
-  
        .subwayWrap img {
            width: 100%;
        }
        .subwayWrap2 img {
            width: 100%;
        }
-      
- .subwayArt {
-  	width: 20% !important;
-   	position: absolute;
-top: 9vw !important;
-    left: 20vw !important;
-   }
-       .subwayArt2 {
-       width: 20% !important;
-    position: absolute;
-     top: 9vw !important;
-  right: 20vw !important;
-
-
-
-
-   } 
    }
    /*Tablets*/
    
    @media (max-width: 768px) {
-     
        .subwayWrap img {
            width: 100%;
-          
        }
        .subwayWrap2 img {
            width: 100%;
-           
        }
-       
-
-      .subwayArt {
-  	width: 20% !important;
-   	position: absolute;
-      top:9vw!important;
-      left: 20vw !important;
    }
-     .subwayArt2 {
-       width: 20% !important;
-    position: absolute;
-     top: 9vw !important;
-  right: 20vw !important;
-
-
-
-
-   }
-
- 
    /*Small devices*/
    
    @media (max-width: 425px) {
-   
        .subwayWrapimg {
            width: 100%;
        }
        .subwayWrap2 img {
            width: 100%;
        }
-    
-  .subwayArt {
-  	width: 20% !important;
-   	position: absolute;
- top: 9vw !important;
-  left: 20vw !important;
    }
-     .subwayArt2 {
-       width: 20% !important;
-    position: absolute;
-     top: 9vw !important;
-  right: 20vw !important;
-
-
-
-
-   }
-   }
-
-
