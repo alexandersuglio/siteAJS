@@ -41,7 +41,7 @@
        background: black;
        overflow-y: scroll;
    }
-   /*  .devicon-git-plain,
+    /* .devicon-git-plain,
    .devicon-mysql-plain-wordmark,
    .devicon-nodejs-plain-wordmark,
    .devicon-mongodb-plain-wordmark,
@@ -53,7 +53,7 @@
    .devicon-photoshop-plain {
        margin-left: 2vw;
        font-size: 100px;
-       color: white;
+       color: blue;
    }*/
    
    p {
@@ -167,14 +167,14 @@
        filter: blur(1px);
    }
    
-   @keyframes carMove {
+  /* @keyframes carMove {
        0% {
            left: -100%;
        }
        100% {
            left: 100%;
        }
-   }
+   }*/
    
    @-webkit-keyframes carMove {
        0% {
@@ -194,21 +194,21 @@
        filter: blur(1px);
    }
    
-   @keyframes carMoveii {
+ /*  @keyframes carMoveii {
        0% {
            left: 100%;
        }
        100% {
            left: -100%;
        }
-   }
+   }*/
    
    @-webkit-keyframes carMoveii {
        0% {
-           left: -100%;
+           left: 100%;
        }
        100% {
-           left: 100%;
+           left: -100%;
        }
    }
    /*before media queries*/
