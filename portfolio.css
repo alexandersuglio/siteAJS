@@ -69,7 +69,10 @@
    
    .sky {
        width: 100%;
-       -webkit-animation: skychange 60s infinite normal ease-out;
+       -webkit-animation-name: skychange;
+       -webkit-animation-duration: 60s;
+       -webkit-animation-timing-function: ease-out;
+       -webkit-animation-iteration-count: infinite;
        animation: skychange 60s infinite normal ease-out;
    }
    
@@ -109,6 +112,7 @@
            background: #ABEAFF;
        }
    }
+   
    @keyframes skychange {
        0% {
            background: #ABEAFF;
@@ -185,7 +189,10 @@
        z-index: 1;
        position: absolute;
        bottom: 15px;
-       -webkit-animation: carMove 2.5s infinite linear;
+       -webkit-animation-name: carMove;
+       -webkit-animation-duration: 2.5s;
+       -webkit-animation-timing-function: linear;
+       -webkit-animation-iteration-count: infinite;
        animation: carMove 2.5s infinite linear;
        filter: blur(1px);
    }
@@ -213,7 +220,10 @@
        z-index: 1;
        position: absolute;
        bottom: 15px;
-       -webkit-animation: carMoveii 2.5s infinite linear;
+       -webkit-animation-name: carMoveii;
+       -webkit-animation-duration: 2.5s;
+       -webkit-animation-timing-function: linear;
+       -webkit-animation-iteration-count: infinite;
        animation: carMoveii 2.5s infinite linear;
        filter: blur(1px);
    }
