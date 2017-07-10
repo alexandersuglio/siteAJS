@@ -41,7 +41,7 @@
        background: black;
        overflow-y: scroll;
    }
-    /* .devicon-git-plain,
+   /* .devicon-git-plain,
    .devicon-mysql-plain-wordmark,
    .devicon-nodejs-plain-wordmark,
    .devicon-mongodb-plain-wordmark,
@@ -68,6 +68,7 @@
    
    .sky {
        width: 100%;
+       -webkit-animation: skychange 60s infinite normal ease-out;
        animation: skychange 60s infinite normal ease-out;
    }
    
@@ -87,6 +88,26 @@
     padding-left: 10px;
    }*/
    
+   @-webkit-keyframes skychange {
+       0% {
+           background: #ABEAFF;
+       }
+       20% {
+           background: #C4F0FF;
+       }
+       40% {
+           background: #FABBBB;
+       }
+       60% {
+           background: #022E7A;
+       }
+       80% {
+           background: #2F3233;
+       }
+       100% {
+           background: #ABEAFF;
+       }
+   }
    @keyframes skychange {
        0% {
            background: #ABEAFF;
@@ -163,20 +184,21 @@
        z-index: 1;
        position: absolute;
        bottom: 15px;
+       -webkit-animation: carMove 2.5s infinite linear;
        animation: carMove 2.5s infinite linear;
        filter: blur(1px);
    }
    
-  /* @keyframes carMove {
+   @-webkit-keyframes carMove {
        0% {
            left: -100%;
        }
        100% {
            left: 100%;
        }
-   }*/
+   }
    
-   @-webkit-keyframes carMove {
+   @keyframes carMove {
        0% {
            left: -100%;
        }
@@ -190,20 +212,21 @@
        z-index: 1;
        position: absolute;
        bottom: 15px;
+       -webkit-animation: carMoveii 2.5s infinite linear;
        animation: carMoveii 2.5s infinite linear;
        filter: blur(1px);
    }
    
- /*  @keyframes carMoveii {
+   @-webkit-keyframes carMoveii {
        0% {
            left: 100%;
        }
        100% {
            left: -100%;
        }
-   }*/
+   }
    
-   @-webkit-keyframes carMoveii {
+   @keyframes carMoveii {
        0% {
            left: 100%;
        }
