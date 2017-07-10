@@ -8,22 +8,15 @@
    }
    
    #about {
-       /*background-image: url('https://s-media-cache-ak0.pinimg.com/originals/22/be/e5/22bee50cd67816ace847d5caf5924aaa.jpg');*/
-     background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
-       /*background-image: url('http://static3.businessinsider.com/image/52fcf63feab8ea7877e32183/the-best-coffee-shop-near-every-new-york-city-subway-stop-map.jpg');*/
-       /*background-position: left;*/
+       background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
        background-position: left 25%;
    }
    
-
-   #portfolio {     background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
-
-       /*background-image: url('http://static3.businessinsider.com/image/52fcf63feab8ea7877e32183/the-best-coffee-shop-near-every-new-york-city-subway-stop-map.jpg');*/
-       /*background-position: left;*/
+   #portfolio {
+       background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
        background-position: left 70%;
    }
-   
- /*  #skills {
+   /*  #skills {
          background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
 
        
@@ -34,7 +27,7 @@
        background: linear-gradient(black, rgba(0, 0, 0, 0.8), black);
    }
    /* #skills-head {
-  	background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.0)); 
+    background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.0)); 
   }*/
    
    html,
@@ -48,8 +41,7 @@
        background: black;
        overflow-y: scroll;
    }
-   
- /*  .devicon-git-plain,
+   /*  .devicon-git-plain,
    .devicon-mysql-plain-wordmark,
    .devicon-nodejs-plain-wordmark,
    .devicon-mongodb-plain-wordmark,
@@ -86,13 +78,13 @@
    #portfolio h1 {
        margin-left: 2vw;
    }
-  /*  #skills h1 {
+   /*  #skills h1 {
        margin-left: 2vw;
    }
 */
    /*#skillsWrap {
-   	position: absolute;
-   	padding-left: 10px;
+    position: absolute;
+    padding-left: 10px;
    }*/
    
    @keyframes skychange {
@@ -115,8 +107,6 @@
            background: #ABEAFF;
        }
    }
-   
-  
    
    .city img {
        width: 100%;
@@ -186,6 +176,15 @@
        }
    }
    
+   @-webkit-keyframes carMove {
+       0% {
+           left: -100%;
+       }
+       100% {
+           left: 100%;
+       }
+   }
+   
    .carWrap2 img {
        width: 100%;
        z-index: 1;
@@ -201,6 +200,15 @@
        }
        100% {
            left: -100%;
+       }
+   }
+   
+   @-webkit-keyframes carMoveii {
+       0% {
+           left: -100%;
+       }
+       100% {
+           left: 100%;
        }
    }
    /*before media queries*/
