@@ -59,8 +59,7 @@
    p {
        font-size: 15px;
        font-family: 'Open Sans', sans-serif;
-       color: orange;
-       /*color: rgba(255, 255, 255, .7);*/
+       color: rgba(255, 255, 255, .7);
        padding-top: 0vw;
        padding-left: 2vw;
        padding-right: 2vw;
@@ -201,6 +200,9 @@
        0% {
            left: -100%;
        }
+        50% {
+       	left: 0;
+       }
        100% {
            left: 100%;
        }
@@ -231,6 +233,9 @@
    @-webkit-keyframes carMoveii {
        0% {
            left: 100%;
+       }
+       50% {
+       	left: 0;
        }
        100% {
            left: -100%;
