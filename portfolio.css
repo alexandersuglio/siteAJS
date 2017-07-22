@@ -2,65 +2,68 @@
        margin: 0;
        padding: 0;
    }
-   
+
    .bodyView {
        overflow-x: hidden;
    }
-   
-   /*#name {
-   }
-   
-   #nameWrap {
-       background: linear-gradient(black, rgba(0, 0, 0, 0.8), black);
-   }*/
-   
+
+
    #about {
        background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
        background-position: left 25%;
    }
-   
+
    #portfolio {
 
        background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
        background-position: left 50%;
    }
-   
+
    #skills {
 
        background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
        background-position: left 75%;
    }
-   
+
    .textWrap {
+       padding-bottom: 2vw;
+
        background: linear-gradient(black, rgba(0, 0, 0, 0.8), black);
    }
+
    .portfolioWrap {
-    background: linear-gradient(black, rgba(0, 0, 0, 0.7), black);
+              background: linear-gradient(black, rgba(0, 0, 0, 0.6), black);
+              padding-bottom: 2vw;
+
    }
+
    #skills-head {
-   
+
        background: black;
    }
-   #idk {
-    
-    padding-top: 2vh;
-    padding-bottom: 8vh;
 
-         text-align: center;
+   #port-signs {
+
+       padding-top: 2vh;
+       padding-bottom: 8vh;
+       text-align: center;
    }
-   
+   #port-signs a {
+       margin: 1vw;
+   }
+
    html,
    body {
        width: 100%;
        height: 100%;
    }
-   
+
    body {
        width: 100%;
        background: black;
        overflow-y: scroll;
    }
-   
+
    .devicon-git-plain,
    .devicon-mysql-plain-wordmark,
    .devicon-nodejs-plain-wordmark,
@@ -75,19 +78,18 @@
        font-size: 4.5vw;
        color: white;
        text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
-
    }
-   
+
    p {
        font-size: 15px;
        font-family: 'Open Sans', sans-serif;
-       color: rgba(255, 255, 255, .7);
+       color: rgba(255, 255, 255, .8);
        padding-top: 0vw;
        padding-left: 2vw;
        padding-right: 2vw;
        padding-bottom: 1vw;
    }
-   
+
    .sky {
        width: 100%;
        -webkit-animation-name: skychange;
@@ -97,28 +99,28 @@
        -webkit-animation-iteration-count: infinite;
        animation: skychange 60s infinite normal ease-out;
    }
-   
+
+
    #about h1 {
        padding-left: 2vw;
    }
-   
+
    #portfolio h1 {
        padding-left: 2vw;
    }
-   
+
    #skills h1 {
        padding-left: 2vw;
    }
-   
+
    #skillsWrap {
        width: 100%;
        position: absolute !important;
-             padding-left:20vw !important;
-             /*padding-bottom: 2vw !important;*/
-             padding-top: 7vw;
-            
+       padding-left: 20vw !important;
+       /*padding-bottom: 2vw !important;*/
+       padding-top: 7vw;
    }
-   
+
    @-webkit-keyframes skychange {
        0% {
            background: #ABEAFF;
@@ -139,7 +141,7 @@
            background: #ABEAFF;
        }
    }
-   
+
    @keyframes skychange {
        0% {
            background: #ABEAFF;
@@ -160,56 +162,56 @@
            background: #ABEAFF;
        }
    }
-   
+
    .city img {
        width: 100%;
    }
-   
+
    h1 {
        font-family: 'Ramabhadra', sans-serif;
        color: rgba(255, 255, 255, 0.9);
    }
-   
+
    .subwayWrap,
    .subwayWrap2 {
        position: relative;
    }
-   
+
    .subwayArt {
        width: 20% !important;
        position: absolute;
        top: 4vw !important;
        left: 20vw !important;
    }
-   
+
    .subwayArt2 {
        width: 20% !important;
        position: absolute;
        top: 4vw !important;
        right: 20vw !important;
    }
-   
+
    #first,
    #last {
        font-size: 5vw;
    }
-   
+
    #nameWrap {
        margin-top: 0vw;
-              padding-left: 4vw;
+       padding-left: 4vw;
        margin-bottom: 1vw;
    }
-   
+
    #last {
        margin-top: -4vw;
    }
-   
+
    #arrayHere {
        margin-left: 17vw;
        margin-top: -15vw;
        font-size: 7vw;
    }
-   
+
    .carWrap img {
        width: 100%;
        z-index: 1;
@@ -223,7 +225,7 @@
        animation: carMove 2.5s infinite linear;
        filter: blur(1px);
    }
-   
+
    @-webkit-keyframes carMove {
        0% {
            left: -100%;
@@ -232,7 +234,7 @@
            left: 100%;
        }
    }
-   
+
    @keyframes carMove {
        0% {
            left: -100%;
@@ -241,7 +243,7 @@
            left: 100%;
        }
    }
-   
+
    .carWrap2 img {
        width: 100%;
        z-index: 1;
@@ -255,7 +257,7 @@
        animation: carMoveii 2.5s infinite linear;
        filter: blur(1px);
    }
-   
+
    @-webkit-keyframes carMoveii {
        0% {
            left: 100%;
@@ -264,7 +266,7 @@
            left: -100%;
        }
    }
-   
+
    @keyframes carMoveii {
        0% {
            left: 100%;
@@ -275,20 +277,20 @@
    }
    /*before media queries*/
    /*large monitors*/
-   
+
    a img:hover {
        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
    }
-   
+
    .subwayWrap img {
        width: 100%;
    }
-   
+
    .subwayWrap2 img {
        width: 100%;
    }
    /*Laptops*/
-   
+
    @media (max-width: 1024px) {
        .subwayWrap img {
            width: 100%;
@@ -298,9 +300,9 @@
        }
    }
    /*Tablets*/
-   
+
    @media (max-width: 768px) {
-   /*  #skillsWrap {
+       /*  #skillsWrap {
        width: 100%;
        position: absolute !important;
              padding-left:18vw !important;
@@ -316,7 +318,7 @@
        }
    }
    /*Small devices*/
-   
+
    @media (max-width: 425px) {
        .subwayWrapimg {
            width: 100%;
@@ -324,20 +326,19 @@
        .subwayWrap2 img {
            width: 100%;
        }
-     .devicon-git-plain,
-   .devicon-mysql-plain-wordmark,
-   .devicon-nodejs-plain-wordmark,
-   .devicon-mongodb-plain-wordmark,
-   .devicon-jquery-plain-wordmark,
-   .devicon-javascript-plain,
-   .devicon-heroku-plain-wordmark,
-   .devicon-css3-plain-wordmark,
-   .devicon-html5-plain-wordmark,
-   .devicon-photoshop-plain {
-       margin-left: 1vw;
-       font-size: 4vw;
-       color: white;
-       text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
-
-   }
+       .devicon-git-plain,
+       .devicon-mysql-plain-wordmark,
+       .devicon-nodejs-plain-wordmark,
+       .devicon-mongodb-plain-wordmark,
+       .devicon-jquery-plain-wordmark,
+       .devicon-javascript-plain,
+       .devicon-heroku-plain-wordmark,
+       .devicon-css3-plain-wordmark,
+       .devicon-html5-plain-wordmark,
+       .devicon-photoshop-plain {
+           margin-left: 1vw;
+           font-size: 4vw;
+           color: white;
+           text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+       }
    }
