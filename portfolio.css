@@ -36,7 +36,7 @@
 
    .portfolioWrap {
               background: linear-gradient(black, rgba(0, 0, 0, 0.6), black);
-              padding-bottom: 2vw;
+              padding-bottom: .5vw;
 
    }
 
@@ -67,18 +67,11 @@
        overflow-y: scroll;
    }
 
-   .devicon-git-plain,
-   .devicon-mysql-plain-wordmark,
-   .devicon-nodejs-plain-wordmark,
-   .devicon-mongodb-plain-wordmark,
-   .devicon-jquery-plain-wordmark,
-   .devicon-javascript-plain,
-   .devicon-heroku-plain-wordmark,
-   .devicon-css3-plain-wordmark,
-   .devicon-html5-plain-wordmark,
-   .devicon-photoshop-plain {
-       margin-left: 1vw;
-       font-size: 4.5vw;
+#skillsWrap i
+  
+ {
+       margin-left: 0.9vw;
+       font-size: 4vw;
        color: white;
        text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
    }
@@ -112,17 +105,17 @@
        padding-left: 2vw;
    }
 
-   #skills h1 {
+   #skills-head {
        padding-left: 2vw;
    }
 
    #skillsWrap {
        width: 100%;
        position: absolute !important;
-       padding-left: 20vw !important;
-       /*padding-bottom: 2vw !important;*/
-       padding-top: 7vw;
-   }
+      
+             padding-top: 7vw;
+             text-align: center;
+            }
 
    @-webkit-keyframes skychange {
        0% {
