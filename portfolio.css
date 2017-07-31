@@ -9,19 +9,22 @@
 
 
    #about {
-       background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
+       /*background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');*/
+       background-image: url('nycMetro.jpg');
        background-position: left 25%;
    }
 
    #portfolio {
+       background-image: url('nycMetro.jpg');
 
-       background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
+       /*background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');*/
        background-position: left 50%;
    }
 
    #skills {
+       background-image: url('nycMetro.jpg');
 
-       background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');
+       /*background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');*/
        background-position: left 75%;
    }
 
