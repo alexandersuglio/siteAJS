@@ -9,22 +9,17 @@
 
 
    #about {
-       /*background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');*/
-       background-image: url('nycMetro.jpg');
+            background-image: url('nycMetro.jpg');
        background-position: left 25%;
    }
 
    #portfolio {
        background-image: url('nycMetro.jpg');
-
-       /*background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');*/
        background-position: left 50%;
    }
 
    #skills {
        background-image: url('nycMetro.jpg');
-
-       /*background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');*/
        background-position: left 75%;
    }
 
@@ -36,19 +31,14 @@
 
    .portfolioWrap {
               background: linear-gradient(black, rgba(0, 0, 0, 0.6), black);
-              padding-bottom: .5vw;
 
-   }
 
-   #skills-head {
-
-       background: black;
    }
 
    #port-signs {
 
-       padding-top: 2vh;
-       padding-bottom: 8vh;
+       padding-top: 1vh;
+       padding-bottom: 5vh;
        text-align: center;
    }
    #port-signs a {
@@ -77,7 +67,7 @@
    }
 
    p {
-       font-size: 15px;
+       font-size: 1.5vw;
        font-family: 'Open Sans', sans-serif;
        color: rgba(255, 255, 255, .8);
        padding-top: 0vw;
@@ -96,17 +86,31 @@
        animation: skychange 60s infinite normal ease-out;
    }
 
-
-   #about h1 {
-       padding-left: 2vw;
+   h1 {
+       font-family: 'Ramabhadra', sans-serif;
+       color: rgba(255, 255, 255, 0.9);
    }
 
-   #portfolio h1 {
+   #about-head {
        padding-left: 2vw;
+       font-size: 3vw;
+   }
+
+   #port-head {
+       padding-left: 2vw;
+         font-size: 3vw;
    }
 
    #skills-head {
        padding-left: 2vw;
+         font-size: 3vw;
+                background: black;
+
+   }
+
+   #contact-head {
+    padding-left: 2vw;
+         font-size: 3vw;
    }
 
    #skillsWrap {
@@ -163,10 +167,6 @@
        width: 100%;
    }
 
-   h1 {
-       font-family: 'Ramabhadra', sans-serif;
-       color: rgba(255, 255, 255, 0.9);
-   }
 
    .subwayWrap,
    .subwayWrap2 {
@@ -298,14 +298,7 @@
    /*Tablets*/
 
    @media (max-width: 768px) {
-       /*  #skillsWrap {
-       width: 100%;
-       position: absolute !important;
-             padding-left:18vw !important;
-             padding-bottom: 2vw !important;
-             padding-top: 7vw;
-            
-   }*/
+   
        .subwayWrap img {
            width: 100%;
        }
@@ -338,3 +331,39 @@
            text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
        }
    }
+
+
+   #contact{
+    background-color: black;
+     padding-bottom: 3vh;
+   }
+
+   h3  {
+
+     font-family: 'Ramabhadra', sans-serif;
+       color: rgba(255, 255, 255, 0.9);
+       font-size: 2vw;
+   }
+
+   .contactChildren {
+    display: inline-block;
+    margin-left: 10vw !important;
+margin-right: 10vw !important;
+
+   }
+.contact-link{
+  font-family: 'Ramabhadra', sans-serif;
+  padding-bottom: 10px;
+  color: white;
+        font-size: 1.5vw;
+        text-decoration: none;
+ }
+#contact-phone {
+  font-family: 'Ramabhadra', sans-serif;
+  color: white;
+        font-size:1.5vw;
+
+}
+#left {
+  margin-left: 5vw !important;
+}
