@@ -5,14 +5,20 @@
     <meta charset="UTF-8">
     <title>Alex Suglio | Cartoons </title>
     <link rel="shortcut icon" href="ajs.ico">
+       <link href="https://fonts.googleapis.com/css?family=Ramabhadra" rel="stylesheet">
 </head>
 
 <body>
    
-        <div class="bodyWrap">
+        <div class="headWrap">
             <h1>Illustrations</h1>
-            <div class="sign">
-            <a href="home.html">Main</a>
+          
+              <div class="nav">
+            <a class="navOptions" href="home.html">Main</a>
+                 <a class="navOptions" href="webApps.html">Web Apps</a>
+                      <a class="navOptions" href="video.html">Video</a>
+
+        </div>
             </div>
         </div>
         <div class="cartoonWrap">
@@ -42,18 +48,15 @@ h1 {
 body {
            background-image: url('nycMetro.jpg');
 
-    /*background-image: url('http://web.mta.info/maps/images/subway_map_May20_2400x2901.jpg');*/
-    background-position: right 70%;
+   background-position: right 70%;
 }
 
-.bodyWrap {   
+.headWrap {   
 	    background-color: black;
 
 }
 
-.sign {
-	text-align: right;
-}
+
 
 .cartoonWrap {
     /*width: 100%;*/
@@ -63,6 +66,23 @@ body {
 .cartoonWrap img {
     width: 30%;
     height: fit;
+}
+.nav {
+    text-align: right;
+    margin-right: 3vw;
+
+}
+.navOptions {
+    text-decoration: none;
+      font-family: 'Ramabhadra', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+     font-size: 1.5vw;
+     margin-left: 1vw;
+}
+
+.navOptions:hover {
+     color: rgba(255, 255, 255, 1);
+     text-shadow: 2px 2px rgba(255, 255, 255, .2);
 }
 
 </style>
