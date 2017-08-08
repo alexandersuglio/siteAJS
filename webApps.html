@@ -11,9 +11,14 @@
 <body>
     <div class="headWrap">
             <h1>Web Applications</h1>
-            <div class="sign">
-            <a href="home.html">Main</a>
+             <div class="nav">
+            <a class="navOptions" href="home.html">Main</a>
+                 <a class="navOptions" href="illustrations.html">Illustration</a>
+                      <a class="navOptions" href="video.html">Video</a>
+
+        </div>
             </div>
+            <div class="appWrap">
         </div>
     <style>
     * {
@@ -24,8 +29,11 @@
 
 
     h1 {
-       font-family: 'Ramabhadra', sans-serif;
-       color: rgba(255, 255, 255, 0.9);
+     padding-left: 2vw;
+      padding-top: 1vh;
+       /*font-size: 3vw;*/
+    font-family: 'Ramabhadra', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
 
     }
     body {
@@ -35,8 +43,27 @@
 background-color: black;
 }
 
-.sign {
-  text-align: right;
+.nav {
+    text-align: right;
+    margin-right: 3vw;
+
+}
+.navOptions {
+    text-decoration: none;
+      font-family: 'Ramabhadra', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+     font-size: 1.5vw;
+     margin-left: 1vw;
+}
+
+.navOptions:hover {
+     color: rgba(255, 255, 255, 1);
+     text-shadow: 2px 2px rgba(255, 255, 255, .2);
+}
+
+.appWrap {
+      background: linear-gradient(black, rgba(0, 0, 0, 0.6), black);
+
 }
     </style>
       </body>
